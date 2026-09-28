@@ -2,7 +2,7 @@
 export function DockDetailPage() {
   return (
     <div>
-      <h1>Dock Detail</h1>
+      <h1>Fiche du quai</h1>
     </div>
   );
 }

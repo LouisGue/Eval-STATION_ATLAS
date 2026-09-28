@@ -2,7 +2,7 @@
 export function NewRequestPage() {
   return (
     <div>
-      <h1>New Request</h1>
+      <h1>Nouvelle demande d'amarrage</h1>
     </div>
   );
 }

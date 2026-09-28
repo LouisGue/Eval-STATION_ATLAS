@@ -2,7 +2,7 @@
 export function RequestsPage() {
   return (
     <div>
-      <h1>Requests</h1>
+      <h1>Demandes d'amarrage</h1>
     </div>
   );
 }
