@@ -6,7 +6,7 @@ export const KIND_LABELS: Record<DockKind, string> = {
   service: "Service",
 };
 
-function assertNever(x: never): never {
+export function assertNever(x: never): never {
   throw new Error(`Cas non géré : ${JSON.stringify(x)}`);
 }
 
