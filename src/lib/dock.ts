@@ -1,4 +1,10 @@
-import type { Dock } from "../types/dock";
+import type { Dock, DockKind } from "../types/dock";
+
+export const KIND_LABELS: Record<DockKind, string> = {
+  crew: "Équipage",
+  cargo: "Fret",
+  service: "Service",
+};
 
 function assertNever(x: never): never {
   throw new Error(`Cas non géré : ${JSON.stringify(x)}`);

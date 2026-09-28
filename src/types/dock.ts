@@ -1,7 +1,9 @@
+export type DockKind = "crew" | "cargo" | "service";
+
 export interface DockDto {
   dock_id: string;
   label: string;
-  kind: "crew" | "cargo" | "service";
+  kind: DockKind;
   state: "OPEN" | "BLOCKED";
   limit_tons: number;
   max_people?: number;
